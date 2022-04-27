@@ -1,4 +1,5 @@
 import { Component, VERSION } from '@angular/core';
+import { Hero } from './hero';
 
 @Component({
   selector: 'my-app',
@@ -7,4 +8,8 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   title = 'Tour of Heroes';
+  heroes: Hero[] = [];
+
+
+
 }
